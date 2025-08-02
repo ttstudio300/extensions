@@ -1,8 +1,14 @@
+// Name: MountainAI
+// ID: radereDevMountainAI
+// Description: Create and run your own GPT like ai models localy!
+// By: RadereDev
+// License: MPL-2.0
+
 (function(Scratch) {
 'use strict';
 
 class MountainAI {
-  // MountainAI Build-15 public beta
+  // MountainAI Build-16 public beta
   constructor(numLayers=2, embedDim=16, ffDim=64, seqLen=8) {
     this.numLayers = numLayers;
     this.embedDim = embedDim;
